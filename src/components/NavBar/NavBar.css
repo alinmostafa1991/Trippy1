@@ -84,6 +84,9 @@ nav ul li
 nav li:hover , .nav-menu li:hover
 {
     background-color: #01959a ;
+    
+}
+nav li:hover a{
     color: white;
 }
 nav .items button , .nav-menu button
@@ -101,12 +104,17 @@ nav .items button:hover , .nav-menu button:hover
     background-color: black ;
     color: white;
 }
+nav .items button:hover a{
+    color: white;
+}
 nav .bars
 {
     background: none;
     border: none;
     display: none;
+    cursor: pointer;
 }
+
 
 
 @media screen and (max-width : 992px)

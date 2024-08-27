@@ -15,9 +15,3 @@ const Hero = (props) => {
 }
 
 export default Hero
-
-{/* <img src={props.img} alt="" />
-      <div className='items'>
-        <h1>{props.title}</h1>
-        <p>{props.desc}</p>
-      </div> */}

@@ -1,0 +1,47 @@
+.popular .Container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+.popular .Container.reverse
+{
+    flex-direction: row-reverse;
+}
+
+.popular .Container .txt
+{
+    width: 49%;
+}
+.popular .Container .images
+{
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.popular .Container .images img
+{
+    width: 49%;
+    border-radius: 10px;
+    height: 368px;
+}
+.popular .Container .images :last-child
+{
+    width: 49%;
+    border-radius: 10px;
+    transform: translatey(-20px);
+}
+@media (max-width : 992px)
+{
+    .popular .Container 
+    {   
+        flex-direction: column-reverse !important;
+        gap: 20px;
+    }
+    .popular .Container .images , .popular .Container .txt
+    {   
+        width: 100%;
+    }
+}
